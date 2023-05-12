@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Firstapp from "./COUNT_APP/Firstapp";
+import Secendapp from "./COUNT_APP/Secendapp";
+import Thardapp from "./COUNT_APP/Thardapp";
+import "./app.css"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="app-h1">Count App</h1>
+      <Firstapp/>
+      <Secendapp/>
+      <Thardapp/>
+      <p className="app-p"> ©Rakib 2023, all right reserve By:Rakib</p>
+    
     </div>
   );
 }
